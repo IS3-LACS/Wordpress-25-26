@@ -45,9 +45,8 @@ Apporter des modifications
 
 # Gestion des branches
 
-Il y a deux branches majeures `main` et `test`. La branche `main` est pour la version finale du site web (sans bugs, etc.), et la branche `test` est pour les tests des fonctionnalités, par exemple, 
-l’ajout de nouvelles fonctionnalités ou juste des tests généraux. 
-Chaque étudiant a sa propre branche nommée d'après ce sur quoi il travaille. Par exemple, si un étudiant travaille sur la page d'accueil, sa branche devrait être `homepage`. 
+Il y a deux branches majeures `main` et `test`. La branche `main` est pour la version finale du site web (sans bugs, etc.), et la branche `test` est pour 
+l’ajout de nouvelles fonctionnalités ou juste des tests généraux.
 
 # Gestion de la base de donnée (mySQL)
 
