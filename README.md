@@ -49,7 +49,7 @@ Apporter des modifications
 
 5. **Push les modifications**: `git push origin nom_de_la_branche`
 
-6. **Créer une Pull Request** : Allez sur GitHub et créez une Pull Request pour fusionner vos modifications dans la branche `main`.
+6. **Créer une Pull Request** : Allez sur GitHub et créez une Pull Request pour fusionner/merger vos modifications sur la branche `test`.
 
 # Gestion des branches
 
