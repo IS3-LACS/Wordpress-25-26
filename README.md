@@ -33,15 +33,24 @@ Avant de commencer, assurez-vous d'avoir :
 
 ## Collaboration
 Pour collaborer efficacement, chaque membre de l'équipe doit suivre les étapes suivantes :
-1. **Clôner le dépôt** : `git clone https://github.com/votre-utilisateur/nom-du-repo.git`
+1. **Clôner le dépôt** : `git clone https://github.com/IS3-LACS/Wordpress-25-26`
 2. **Créer une branche** : `git checkout -b nom_de_la_branche`
 
 Apporter des modifications
 
 3. **Stage vos modifications** : `git add .` ou  `git add fichier_ou_dossier`
 4. **Valider vos modifications**: `git commit -m message`
-5. **Push les modification**: `git push origin nom_de_la_branche`
+5. **Push les modifications**: `git push origin nom_de_la_branche`
 6. **Créer une Pull Request** : Allez sur GitHub et créez une Pull Request pour fusionner vos modifications dans le projet principal.
+
+## Gestion des branches
+
+Il y a deux branches majeures `main` et `test`. La branche `main` est pour la version finale du site web (sans bugs, etc.), et la branche `test` est pour les tests des fonctionnalités, par exemple, 
+l’ajout de nouvelles fonctionnalités ou juste des tests généraux. 
+Chaque étudiant a sa propre branche nommée d'après ce sur quoi il travaille. Par exemple, si un étudiant travaille sur la page d'accueil, sa branche devrait être `homepage`. 
+
+##Gestion de la base de donnée (mySQL)
+
 
 
 
