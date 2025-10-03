@@ -35,7 +35,7 @@ Avant de commencer, assurez-vous d'avoir :
 Pour collaborer efficacement, chaque membre de l'équipe doit suivre les étapes suivantes :
 
 1. **Clôner le dépôt** : `git clone https://github.com/IS3-LACS/Wordpress-25-26`
-2. **Mettez à jour votre dépôt local.** :
+2. **Mettez à jour votre dépôt local** :
 * `git checkout test`
 * `git pull origin test`
 2. **Créer une branche** : `git checkout -b nom_de_la_branche`
@@ -45,11 +45,11 @@ Apporter des modifications
 3. **Stage vos modifications** : `git add .` ou  `git add fichier_ou_dossier`
 4. **Valider vos modifications**: `git commit -m "message" `
 
-**Personne ne Push directement vers main.**. Toutes les contributions passent par des branches de fonctionnalités → `test` → `main`.
+**Personne ne Push directement vers main**. Toutes les contributions passent par `nom_de_la_branche` (branches de fonctionnalités) → `test` → `main`.
 
 5. **Push les modifications**: `git push origin nom_de_la_branche`
 
-6. **Créer une Pull Request** : Allez sur GitHub et créez une Pull Request pour fusionner/merger vos modifications sur la branche `test`.
+6. **Créer un Pull Request** : Allez sur GitHub et créez une Pull Request pour fusionner/merger vos modifications sur la branche `test`.
 
 # Gestion des branches
 
