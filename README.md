@@ -1,13 +1,52 @@
-# site WordPress 25-26 
+# Site WordPress 25-26 
 
-Ceci est un repo du site wordpress 25-26. 
+Ceci est un repo du site WordPress 25-26. 
 
 ## Tâche
 
-Notre mission est de concevoir un site web WordPress dédié au département d’informatique.
-Ce site a pour objectif de mettre à disposition différentes ressources essentielles, telles qu’une bibliothèque regroupant les cours dispensés dans la section informatique, 
-une foire aux questions (FAQ), une présentation des services proposés par l’école, 
-ainsi qu’un chatbot destiné à faciliter l’accompagnement et la communication avec les utilisateurs.
+Notre mission est de concevoir un site web WordPress dédié au département d’informatique. 
+
+Ce site a pour objectif de mettre à disposition différentes ressources telles que :
+
+* Une bibliothèque regroupant les cours dispensés dans la section informatique. 
+* Une présentation des services proposés par l’école. 
+* Un chatbot destiné à faciliter l’accompagnement et la communication avec les utilisateurs du site.
+* Etc.
+
+Toutes ces ressources sont accessibles via des pages différentes, par exemple :
+
+* Une page de connexion.
+* Une page d'accueil.
+* Un menu.
+* Un formulaire.
+* Etc ..
+
+# WorkFlow
+
+## Prérequis
+
+Avant de commencer, assurez-vous d'avoir :
+
+- Compte GitHub
+- Git installé sur votre machine
+- Serveur WordPress configuré (local ou distant)
+
+## Collaboration
+Pour collaborer efficacement, chaque membre de l'équipe doit suivre les étapes suivantes :
+1. **Clôner le dépôt** : `git clone https://github.com/votre-utilisateur/nom-du-repo.git`
+2. **Créer une branche** : `git checkout -b nom_de_la_branche`
+
+Apporter des modifications
+
+3. **Stage vos modifications** : `git add .` ou  `git add fichier_ou_dossier`
+4. **Valider vos modifications**: `git commit -m message`
+5. **Push les modification**: `git push origin nom_de_la_branche`
+6. **Créer une Pull Request** : Allez sur GitHub et créez une Pull Request pour fusionner vos modifications dans le projet principal.
+
+
+
+
+
 
 
 
