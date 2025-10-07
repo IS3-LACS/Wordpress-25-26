@@ -1,0 +1,81 @@
+.customize-control-hestia-dimensions ul {
+    display: flex;
+    align-items: center;
+}
+
+.customize-control-hestia-dimensions li {
+    flex-grow: 1;
+}
+
+.customize-control-hestia-dimensions .dimension-wrap input,
+.customize-control-hestia-dimensions .dimension-wrap button {
+    font-size: 12px;
+    width: 100%;
+    height: 28px;
+    border: 1px solid #a4afb7;
+    border-left-width: 0;
+    border-radius: 0;
+    text-align: center;
+}
+
+.customize-control-hestia-dimensions .dimension-wrap:first-child input {
+    border-left-width: 1px;
+    border-radius: 3px 0 0 3px;
+}
+
+.customize-control-hestia-dimensions .dimension-wrap .link-dimensions {
+    background: #fff;
+    border: 1px solid #a4afb7;
+    border-left-width: 0;
+    outline: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.customize-control-hestia-dimensions .dimension-wrap .link-dimensions span {
+    background: #fff;
+    padding: 4px 0;
+    width: 100%;
+}
+
+.customize-control-hestia-dimensions .dimension-wrap .link-dimensions .hestia-linked {
+    background-color: #a4afb7;
+    color: #fff;
+}
+
+.customize-control-hestia-dimensions .dimension-wrap .link-dimensions.unlinked .hestia-unlinked {
+    display: none;
+}
+
+.customize-control-hestia-dimensions .dimension-wrap .link-dimensions.unlinked .hestia-linked {
+    display: block;
+}
+
+.customize-control-hestia-dimensions .dimension-wrap .link-dimensions .hestia-linked {
+    display: none;
+}
+
+.control-wrap {
+    width: 100%;
+}
+
+.has-media-queries .control-wrap {
+    display: none;
+    width: 100%;
+}
+
+.has-media-queries .control-wrap.active {
+    display: flex;
+}
+
+.customize-control span.reset-dimensions {
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.customize-control span.reset-dimensions:hover {
+    color: #fe5252;
+}

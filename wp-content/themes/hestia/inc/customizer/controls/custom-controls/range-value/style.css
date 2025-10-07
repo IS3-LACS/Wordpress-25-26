@@ -1,0 +1,179 @@
+.range-slider {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.range-slider .control-wrap {
+    display: none;
+    align-items: center;
+    gap: 5px;
+}
+
+.range-slider .control-wrap.active {
+    display: flex;
+}
+
+.range-slider__range {
+    background-color: rgba(0, 0, 0, .1);
+    height: 5px;
+    flex-grow: 1;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    transition: background .5s;
+    -webkit-appearance: none;
+}
+
+.range-slider__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #2e86b9;
+}
+
+.range-slider__range::-webkit-slider-thumb:hover {
+    background: #0085ba;
+}
+
+.range-slider__range:active::-webkit-slider-thumb {
+    background: #0085ba;
+}
+
+.range-slider__range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border-radius: 50%;
+    background: #0085ba;
+    cursor: pointer;
+    -webkit-transition: background .15s ease-in-out;
+    transition: background .15s ease-in-out;
+}
+
+.range-slider__range::-moz-range-thumb:hover {
+    background: #0085ba;
+}
+
+.range-slider__range:active::-moz-range-thumb {
+    background: #0085ba;
+}
+
+.customize-control input[type=number].range-slider-value,
+.customize-control input[type=text].range-slider-value {
+    height: 28px;
+    width: 30%;
+    border: 1px solid #a4afb7;
+    text-align: center;
+    margin-left: 2%;
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    -moz-appearance: textfield;
+}
+
+.customize-control input[type=number].range-slider-value::-webkit-outer-spin-button,
+.customize-control input[type=number].range-slider-value::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.customize-control input[type=number].range-slider-value {
+    -moz-appearance: textfield;
+}
+
+.range-reset-slider .dashicons {
+    line-height: 1;
+}
+
+.customize-control span.range-reset-slider {
+    flex-grow: 1;
+    width: 30%;
+    color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+    text-align: center;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+}
+
+.customize-control span.range-reset-slider:hover {
+    color: #fe5252;
+}
+
+::-moz-range-track {
+    background: #d7dcdf;
+    border: 0;
+}
+
+input::-moz-focus-inner, input::-moz-focus-outer {
+    border: 0;
+}
+
+.customize-control-range-value .customize-control-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 10px;
+}
+
+.responsive-switchers {
+    gap: 5px;
+}
+
+.responsive-switchers:not(.responsive-switchers-open) .preview-tablet,
+.responsive-switchers:not(.responsive-switchers-open) .preview-mobile {
+    display: none;
+}
+
+.customize-control .responsive-switchers {
+    display: flex;
+}
+
+.customize-control .responsive-switchers li {
+    margin: 0;
+}
+
+.customize-control .responsive-switchers li button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    background-color: #a4afb7;
+    cursor: pointer;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0;
+    border: 0;
+    outline: none;
+    transition: background-color .2s;
+}
+
+.customize-control .responsive-switchers li button:hover {
+    background-color: #c2cbd2;
+}
+
+.customize-control .responsive-switchers li button.active {
+    background-color: #13aff0;
+}
+
+.customize-control .responsive-switchers li button i {
+    width: auto;
+    height: auto;
+    font-size: inherit;
+    line-height: 18px;
+}
